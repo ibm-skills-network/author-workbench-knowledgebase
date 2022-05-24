@@ -22,7 +22,7 @@ In JupyterLite, it's a little more involved. You must import the `piplite` packa
 
 ```python
 import piplite
-await piplite.install(['numpy', 'pandas'])
+await piplite.install(['numpy', 'pandas', 'skillsnetwork'])
 ```
 
 ### Downloading Data
@@ -46,6 +46,24 @@ import skillsnetwork
 URL = 'https://www.url.to/my/dataset.csv'
 
 await skillsnetwork.download_dataset(URL)
+df = pd.read_csv('dataset.csv')
+```
+
+Optionally, if you want downloading a dataset to work in both JupyterLab and JupyterLite, you could add the following cell. This works by assuming the user has imported the `piplite` package if working in JupyterLite while locally they would have commented that line out. 
+
+```python
+import sys
+# comment the line below if running locally
+import piplite 
+
+URL = 'https://www.url.to/my/dataset.csv'
+
+if 'piplite' in sys.modules:
+    import skillsnetwork
+    await skillsnetwork.download_dataset(URL, filename='dataset.csv')
+else:
+    !wget 'https://www.url.to/my/dataset.csv'
+    
 df = pd.read_csv('dataset.csv')
 ```
 
