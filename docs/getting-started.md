@@ -45,6 +45,6 @@ Once you are done authoring your content and are ready to make it publicly avail
 You are required to include a release note for every new version. Note that this text will be made available to all learners, so write something that makes sense to your learners.
 
 Depending on the tool your are using, fill in the form.
-<img width="1904" alt="release" src="https://user-images.githubusercontent.com/46271636/171187097-149f771d-a846-4614-b716-b4aa44567428.png">
+<img width="1904" alt="release" src="https://user-images.githubusercontent.com/46271636/171187097-149f771d-a846-4614-b716-b4aa44567428.png" />
 
 Upon submission, our curation team will review your content. We will reach out if there are any issues.
