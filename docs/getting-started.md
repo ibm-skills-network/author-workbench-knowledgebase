@@ -7,10 +7,6 @@ slug: /
 
 Congratulations on creating your Guided Project. This article will walk you through the steps to create and publish a Guided Project.
 
-## Prerequisites
-
-If you haven't went through our onboarding process, please visit https://www.skills.network/authoring/ first and follow the instructions.
-
 ## Get Started
 
 Upon creating a project, you should see the following screen:
