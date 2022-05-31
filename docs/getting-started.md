@@ -14,7 +14,7 @@ If you haven't went through our onboarding process, please visit https://www.ski
 ## Get Started
 
 Upon creating a project, you should see the following screen:
-<img width="1904" alt="guided project creation" src="https://user-images.githubusercontent.com/46271636/171186797-e3a65a85-99a4-4bc6-9be0-ee30a5004e46.png">
+<img width="1904" alt="guided project creation" src="https://user-images.githubusercontent.com/46271636/171186797-e3a65a85-99a4-4bc6-9be0-ee30a5004e46.png" />
 
 You will see three major components:
 
