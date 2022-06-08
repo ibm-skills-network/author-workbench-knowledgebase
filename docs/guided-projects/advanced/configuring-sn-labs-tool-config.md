@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Configuring the Skills Network Labs Tool Configuration
+# Using a Custom Outline
 
 :::note
 This is a setting for advanced users. For the vast majority of users, we do not expect you to need to configure this setting.
@@ -20,7 +20,6 @@ a [custom outline in SN Studio](#your-custom-sn-studio-outline) instead
 
 The Simple Guided Project Outline allows you to create a Guided Project without
 the need to configure the structure, settings and LTI parameters within [Skills Network's Studio][sn-studio-url].
-Given the Guided Project's lab instruction URL, we will generate the course in [Skills Network's Studio][sn-studio-url] for you upon publication.
 
 ## Configure with...
 
@@ -38,7 +37,8 @@ If you are using Skills Network's Studio to display your Guided Project to learn
 
 ### Simple Guided Project Outline
 
-If you are using the Simple Guided Project Outline to display your Guided Project to learners...
+When your Guided Project is created, it should already be created with this configuration.
+If for whatever reason you need to make changes, follow these steps...
 1. Select the `Use Simple Guided Project outline` type
 2. Open the `Tool` dropdown and select the tool your Guided Project uses.
 
