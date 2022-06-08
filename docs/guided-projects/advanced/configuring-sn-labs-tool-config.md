@@ -38,7 +38,7 @@ If you are using Skills Network's Studio to display your Guided Project to learn
 ### Simple Guided Project Outline
 
 When your Guided Project is created, it should already be created with this configuration.
-If for whatever reason you need to make changes, follow these steps...
+If your Guided Project is not configured properly, or you need to make changes, please follow these steps:
 1. Select the `Use Simple Guided Project outline` type
 2. Open the `Tool` dropdown and select the tool your Guided Project uses.
 
