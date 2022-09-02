@@ -19,8 +19,7 @@ The layout of the Skills Network File Library interface can be broken down into 
 
 Currently, available modes are `Images` and `Project files`.
 
-- When `Images` is selected, the file library will set `/images` as the root, and start displaying only image files (files with .png, .jpeg, or .jpg extension) in the `Main` section. In addition, the `Upload` sections will start to only accept files with .png, .jpeg, or .jpg extension for upload.
-- When `Project files` is selected, the file library will set `/` as the root, and start displaying files of any type in the `Main` section. In addition, the `Upload` sections will start to accept files with any extension for upload.
+- When `Images` is selected, you will only see the images in your course or project's file library. Selecting `Project files` will show all files.
 
 ## Directory section
 
