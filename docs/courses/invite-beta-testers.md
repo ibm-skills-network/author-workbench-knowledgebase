@@ -7,7 +7,7 @@ So, you have created the first draft of your course and ready to get some feedba
 
 ## Pre-req
 
-Your beta testers must have a registered and activated account on [Skills Network Studio](https://course-dev.skills.network/register). If they don't have an account yet, please send them to [register](https://course-dev.skills.network/register) to create an account. You should also ask the beta tester to inform you upon they have  created an account on Skills Network Studio.
+Your beta testers must have a registered and activated account on [https://author.skills.network](https://author.skills.network). Once they have completed this step, make sure to take note of their account email address and follow the instructions below to invite them to your course.
 
 ## Inviting Beta Tester Steps
 1. Visit [author.skills.network](author.skills.network) and navigate to your course
