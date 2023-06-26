@@ -134,6 +134,9 @@ To add a (non-instructional) lab to your course in **Studio**:
     <tr>
         <td> Request user's email </td> <td> <code>true</code> </td>
     </tr>
+    <tr>
+        <td> Send extra parameters </td> <td> <code>true</code> </td>
+    </tr>
 </table>
 
 ### Lab Launch Url
