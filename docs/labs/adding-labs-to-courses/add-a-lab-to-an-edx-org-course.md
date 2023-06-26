@@ -131,9 +131,6 @@ To add a (non-instructional) lab to your course in **Studio**:
     <tr>
         <td> Request user's email </td> <td> <code>true</code> </td>
     </tr>
-    <tr>
-        <td> Custom Parameters </td> <td> See <a href="#custom-parameters">Custom Parameters</a> below. </td>
-    </tr>
 </table>
 
 ### Lab Launch Url
@@ -146,3 +143,10 @@ The Lab Launch url can be easily found in Author Workbench on your course page. 
 2. Copy the the Lab's Launchg Url by clicking on the `Copy` button.
 
 ![image](/img/adding-labs-in-a-course/SN-AW-edx-lab-modal-lab-launch-url.png)
+
+Once everything has been added, your final configuration should look something like this:
+
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-1.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-2.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-3.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-4.png)

@@ -94,3 +94,8 @@ The Lab Launch url can be easily found in Author Workbench on your course page. 
 The consumer key and secret can be found in Author Workbench on your course page. Navigate to the `Advanced` tab and and scroll to the `LTI Credentials (Advanced Users Only)` section. Here, you will be able to copy the consumer key and secret. If you are publishing your course to Coursera, please use the `LTI Credential (Coursera)` credentials. Otherwise, use `LTI Credential (Skills Network / edX)`.
 
 ![image](/img/adding-labs-in-a-course/SN-AW-LTI-Credentials-Coursera.png)
+
+
+Once everything has been added, your final configuration should look something like this:
+
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lti-consumer-params.png)

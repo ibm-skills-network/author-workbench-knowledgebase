@@ -146,3 +146,10 @@ The Lab Launch url can be easily found in Author Workbench on your course page. 
 2. Copy the the Lab's Launchg Url by clicking on the `Copy` button.
 
 ![image](/img/adding-labs-in-a-course/SN-AW-skills-network-lab-modal-lab-launch-url.png)
+
+Once everything has been added, your final configuration should look something like this:
+
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-1.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-2.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-3.png)
+![image](/img/adding-labs-in-a-course/SN-AW-edx-lti-consumer-params-4.png)
