@@ -3,7 +3,7 @@
 While taking labs within Skills Network Labs, your learners will have free access to some APIs. 
 This helps learners get started with the interesting stuff right away, without immediately worrying about registration.
 
-## Limits
+## Learner Quotas
 
 Learner usage of Skills Network-provided APIs is subject to a quota. The quota is based on actual cost, so if you choose lower-cost APIs (e.g. lower cost models), then your learners will be less likely to hit their quota.
 
@@ -12,6 +12,21 @@ When a learner has reached their quota, they will receive an error message like 
 ```shell
 RateLimitError: Error code: 429 - {'error': 'You have exceeded your usage quota for Skills Network-provided <api endpoint> for the day. Your quota will reset in 6 hours 32 minutes from now.'}
 ```
+
+## Limitations
+
+These free Skills Network-provided APIs are available for learning and experimentation. They are not suitable when it comes to deploying an application. 
+
+Learners will have access to these APIs within their:
+- Cloud IDE (from their terminal/shell, or when running an application from within Cloud IDE)
+- JupyterLab IDE (from their notebook, or from the JupyterLab terminal/shell)
+- Rstudio IDE
+
+Learners will _not_ have free access to these APIs within their:
+- Code Engine projects
+- Kubernetes cluster namespaces
+- OpenShift cluster namespaces
+
 
 ## Free APIs
 
