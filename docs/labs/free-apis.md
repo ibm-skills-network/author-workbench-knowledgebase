@@ -32,28 +32,15 @@ Learners will _not_ have free access to these APIs within their:
 
 ### watsonx.ai
 
-##### IMPORTANT: You must use version `1.0.321` of `ibm-watson-machine-learning`
+To use the free Skills Network-provided watsonx.ai project, specify the `"url"` and `project_id = "skills-network"` (make sure to **leave out** `"token"` and `"apikey"`). For example, you can modify [the example from the official documentation for the ibm_watson_machine_learning library](https://www.ibm.com/docs/en/watsonx-as-a-service?topic=models-python-library#example-prompt-a-foundation-model-with-default-parameters) as follows:
 
-You can install it by running:
-
-```python
-pip install ibm-watson-machine-learning==1.0.321
-```
-
-##### Usage
-To use the free Skills Network-provided watsonx.ai project, you need to specify `"token": "skills-network"` (not to be confused with `"apikey": "skills-network"` ) and `project_id = "skills-network"`. For example, you can modify [the example from the official documentation for the ibm_watson_machine_learning library](https://www.ibm.com/docs/en/watsonx-as-a-service?topic=models-python-library#example-prompt-a-foundation-model-with-default-parameters):
-
-
-
-You can then use it like this:
 ```python
 from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 from ibm_watson_machine_learning.foundation_models import Model
 import json
 
 my_credentials = {
-    "url"    : "https://us-south.ml.cloud.ibm.com",
-    "token" : "skills-network" # <--- NOTE: specify "skills-network" as your token (NOT as your apikey) 
+    "url"    : "https://us-south.ml.cloud.ibm.com"
 }
 
 
@@ -63,8 +50,8 @@ project_id  = "skills-network" # <--- NOTE: specify "skills-network" as your pro
 space_id    = None
 verify      = False
 
-model = Model( model_id, my_credentials, gen_parms, project_id, space_id, verify )   
- 
+model = Model( model_id, my_credentials, gen_parms, project_id, space_id, verify )
+
 prompt_txt = "In today's sales meeting, we "
 gen_parms_override = None
 
