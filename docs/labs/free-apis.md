@@ -32,6 +32,25 @@ Learners will _not_ have free access to these APIs within their:
 
 ### watsonx.ai
 
+#### Versioning
+
+It is recommended that authors follow the instructions below using the default `ibm-watson-machine-learning` version installed with pip. However, after doing so, please pin the version you used for your learners. If you encounter an error with the latest package version and the following instructions, please let us know!
+
+For example:
+```shell
+$ pip install ibm-watson-machine-learning
+Collecting ibm-watson-machine-learning
+  Downloading ibm_watson_machine_learning-1.0.344-py3-none-any.whl.metadata (8.6 kB)
+...
+```
+
+Your lab instructions would state:
+```shell
+pip install ibm-watson-machine-learning==1.0.344
+```
+
+#### Usage
+
 To use the free Skills Network-provided watsonx.ai project, specify the `"url"` and `project_id = "skills-network"` (make sure to **leave out** `"token"` and `"apikey"`). For example, you can modify [the example from the official documentation for the ibm_watson_machine_learning library](https://www.ibm.com/docs/en/watsonx-as-a-service?topic=models-python-library#example-prompt-a-foundation-model-with-default-parameters) as follows:
 
 ```python
