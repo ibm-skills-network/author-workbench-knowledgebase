@@ -1,9 +1,9 @@
 
 # Upgrading to the Latest Version of JupyterLab
 
-Follow these steps to upgrade your JupyterLab Classic to JupyterLab Current:
+Follow these steps to upgrade your JupyterLab Classic lab to JupyterLab Current:
 
-1. **Open Your Lab:** Begin by launching your lab detail page.
+1. **Open Your Lab:** Begin by clicking on your lab in Author Workbench to view its details page.
 
 2. **Locate the Version Tab:** In the lab, find and click on the "Version" Tab. Refer to the image below for guidance:
 ![Version Tab](/img/labs/lab-version-tab.png)
@@ -16,4 +16,4 @@ Follow these steps to upgrade your JupyterLab Classic to JupyterLab Current:
 
 5. **Update Lab Version:** Click on the "Update Lab Version" button to apply the upgrade to the JupyterLab Current.
 
-By completing these steps, your JupyterLab Classic will be successfully updated to the JupyterLab Current.
+By completing these steps, your JupyterLab Classic lab will be successfully updated to JupyterLab Current! Please make sure to test your lab after updating and make any necessary adjustments.
