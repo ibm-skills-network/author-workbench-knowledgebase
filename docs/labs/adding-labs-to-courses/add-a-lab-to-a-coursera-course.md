@@ -12,43 +12,43 @@ HTML files will be automatically generated from instructional labs so they can b
 
 1. On your course page, navigate to the lab you want (under the `Labs` tab) and click "Embed"
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-add-to-course.png)
+![image](/img/adding-labs-in-a-course/SN-AW-add-to-course.png)
 
 2. Copy the JSON configuration provided 
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-instructional-lab-modal-json.png)
+![image](/img/adding-labs-in-a-course/SN-AW-instructional-lab-modal-json.png)
 
 3. Close the pop-up and navigate to your Course Outline in the `Content` tab on your course page. Press the "Edit in Coursera" button to open the outline in Coursera
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-Course-Outline-Coursera.png)
+![image](/img/adding-labs-in-a-course/SN-AW-Course-Outline-Coursera.png)
 
 4. Select the version of the course you want to add your instructional lab to
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-version.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-version.png)
 
 5. Navigate to the week and unit you wish to add your instructional lab in, and insert an ungraded plugin
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-add-ungraded-plugin.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-add-ungraded-plugin.png)
 
 6. After naming your plugin as desired, click on the item to edit it
 
 7. Click on the "Choose Plugin" button and select "Pop Up Template"
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-choose-plugin-button.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-choose-plugin-button.png)
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-pop-up-template.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-pop-up-template.png)
 
 8. After pressing "Continue", scroll down to the bottom of the page and select "Edit Configuration"
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-edit-configuration.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-edit-configuration.png)
 
 9. Replace all existing content with the JSON you copied in step 2 and click "Save Configuration"
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-JSON.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-JSON.png)
 
 10. Now, your instructional lab should appear in the plugin. You can now publish your changes, or view your instructional lab as a learner.
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-instructional-lab-publish-view-as-learner.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-instructional-lab-publish-view-as-learner.png)
 
 
 ## Add a (Non-Instructional) Lab to your Course
@@ -59,7 +59,7 @@ To add a (non-instructional) lab to your course in **Coursera**:
 
 1. In Coursera, go to the week and unit you want your lab to be in and add a new App Item.
 
-![image](/static/img/adding-labs-in-a-course/SN-Coursera-add-LTI-item.png)
+![image](/img/adding-labs-in-a-course/SN-Coursera-add-LTI-item.png)
 
 2. Add the following values to the corresponding fields within the App Item
 
@@ -83,27 +83,27 @@ To add a (non-instructional) lab to your course in **Coursera**:
 The Lab Launch url can be easily found in Author Workbench on your course page. Just follow these steps:
 1. On your course page, navigate to the lab you want (under the `Labs` tab) and click "Embed"
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-course-embed-lab-button.png)
+![image](/img/adding-labs-in-a-course/SN-AW-course-embed-lab-button.png)
 
 2. Copy the the Lab's Launchg Url by clicking on the `Copy` button.
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-coursera-lab-modal-lab-launch-url.png)
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lab-modal-lab-launch-url.png)
 
 3. Now, go back to Coursera and click on `App Manager` on the left side of your screen to create a new app name and configuration.
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager.png)
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager.png)
 
 4. Click on `Add app`
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-add.png)
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-add.png)
 
 5. Now, select `LTI 1.1` and enter the Coursera credentials you copied earlier from the Author Workbench.
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-lti-input.png)
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-lti-input.png)
 
 6. After clicking **Continue**, name your app and set your learner privacy preferences. Then select `Add App`.
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-lti-config.png)
+![image](/img/adding-labs-in-a-course/SN-AW-coursera-lab-app-manager-lti-config.png)
 
 7. You can return to your 'App Item,' publish your newly created lab, and then launch it.
 
@@ -111,7 +111,7 @@ The Lab Launch url can be easily found in Author Workbench on your course page. 
 
 The consumer key and secret can be found in Author Workbench on your course page. Navigate to the `Advanced` tab and and scroll to the `LTI Credentials (Advanced Users Only)` section. Here, you will be able to copy the consumer key and secret. If you are publishing your course to Coursera, please use the `LTI Credential (Coursera)` credentials. Otherwise, use `LTI Credential (Skills Network / edX)`.
 
-![image](/static/img/adding-labs-in-a-course/SN-AW-LTI-Credentials-Coursera.png)
+![image](/img/adding-labs-in-a-course/SN-AW-LTI-Credentials-Coursera.png)
 
 
 ## Add a Datasette Lab to your Course
@@ -126,22 +126,22 @@ You must supply a database file as the value for `sn_asset_library_sqlite_db_url
 To do this, you should upload a `.db` or `.sqlite` file of your choice to the SN File Library. Head to the `content` tab of your course or guided project.
 
 Here you can open the File Library and upload your database file.
-![image](/static/img/adding-labs-in-a-course/open-file-library.png)
+![image](/img/adding-labs-in-a-course/open-file-library.png)
 
 Once you have uploaded your database file to SN File Library, select the file and copy the asset URL.
 
-![image](/static/img/adding-labs-in-a-course/copy-file-url.png)
+![image](/img/adding-labs-in-a-course/copy-file-url.png)
 
 ### Step 3. Copy your instructions url
 you will also need an instructions URL.
 
 This can be obtained by clicking opening the `embed` popup on your lab in Author Workbench.
-![image](/static/img/adding-labs-in-a-course/embed-lab.png)
+![image](/img/adding-labs-in-a-course/embed-lab.png)
 
 ### Step 4. Add custom parameters to your lti item
 Fill out the custom parameters for your lti item
 
-![image](/static/img/adding-labs-in-a-course/coursera-custom-params.png)
+![image](/img/adding-labs-in-a-course/coursera-custom-params.png)
 
 ```
 [
