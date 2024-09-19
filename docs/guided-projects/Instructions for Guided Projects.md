@@ -102,5 +102,9 @@ On the next page, complete the required fields for your GP. You can always updat
 
 - **congratulations**, you have published your GP!
 
+## Author
 
+[Hailey Quach](https://author.skills.network/instructors/hailey_quach)
+
+[Ricky Shi](https://author.skills.network/instructors/ricky_shi)
   
