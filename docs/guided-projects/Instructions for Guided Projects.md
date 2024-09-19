@@ -27,7 +27,7 @@ This guide explains how to create and publish a Guided Project (GP) step-by-step
 ### 4. Select Your Creation Option
 
 You will see several options for creating your GP:
-- **Create a Practice Project**: This is ideal if it's your first GP.
+- **Create a Practice Project**
 - **Create with AI**: AI can help generate content based on your topic. However, it is strongly recommended to review all AI-generated content.
 - **Create your own GP**: Fully customize your own GP from scratch.
 
@@ -45,7 +45,7 @@ On the next page, complete the required fields for your GP. You can always updat
 - **Provider**: Ensure **IBM Skills Network** is selected for "Who will this be offered by?"
 - **Skills**: Select the skills that this project helps to build.
 - **Industry**: Select the industry, or leave blank if the GP is general.
-- **Short Description**: Write a brief description (160 characters), as this will show on Google. You can modify it later.
+- **Short Description**: Write a brief description, as this will show on Google. You can modify it later.
 - **Long Description**: Follow the provided template, and you can modify it after the project is created.
 - **Release Date**: Choose a tentative release date.
 - Once finished, click **Create Guided Project**.
@@ -78,12 +78,6 @@ On the next page, complete the required fields for your GP. You can always updat
 
 ### 11. Post on Slack for Content Review
 
-- Go to the `#sn-content-reviews` channel on Slack.
-- Post the following message: <br>
-```
-Hello, please review this project and not publish: [link to your GP]
-```
-
 
 ### 12. Inform Marketing
 
@@ -103,14 +97,10 @@ Hello, please review this project and not publish: [link to your GP]
 
 ### 15. Publish Your GP
 
-- Once all reviews are completed, send a message on Slack to **@Marielle** with the following content: <br>
-```
-Hi Grace, could you please publish the guided project [link to your GP] to the global catalogue?
-```
 
 ### 16. Celebrate!
 
-- Once Grace confirms, **congratulations**, you have published your GP!
+- **congratulations**, you have published your GP!
 
 
   
