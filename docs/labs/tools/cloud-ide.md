@@ -4,12 +4,12 @@ User interface of Cloud IDE, as shown below, comprises of course instructions on
 
 ![Cloud IDE Screenshot interface showing an open project with a code editor, file explorer, and terminal](/img/labs/cloud-ide-screenshot.png)
 
-There are three versions of CloudIDE available on Author Workbench: **normal CloudIDE**, **CloudIDE with Kubernetes** and **CloudIDE with Openshift**. Any information specific to only one version of CloudIDE will be clearly indicated below.
+There are three versions of Cloud IDE available on Author Workbench: **normal Cloud IDE**, **Cloud IDE with Kubernetes** and **Cloud IDE with Openshift**. Any information specific to only one version of Cloud IDE will be clearly indicated below.
 
-## Launch a terminal (all CloudIDE versions)
+## Launch a terminal (all Cloud IDE versions)
 Click `Terminal` in the menu of the development environment(on the right side of the screen). Then from the dropdown select `New Terminal` and it should open up a new terminal for you.
 
-## Docker (CloudIDE with Kubernetes, CloudIDE with Openshift)
+## Docker (Cloud IDE with Kubernetes, Cloud IDE with Openshift)
 Docker is an open source platform that is widely used to develop, ship and run applications. Cloud-IDE has built-in support for Docker. You can simply use `docker` cli to run commands. Internally, the docker client(in your IDE) talks to docker daemon, running on a remote host, over a TCP connection. Default user(theia) is configured to run docker commands. Docker commands don't require root privileges. So, don't preface commands with `sudo` or run them with root user. Some examples are:
 
 ```
@@ -22,7 +22,7 @@ docker container list
 ```
 It lists the existing containers.
 
-### Volume Mount Points (CloudIDE with Kubernetes, CloudIDE with Openshift)
+### Volume Mount Points (Cloud IDE with Kubernetes, Cloud IDE with Openshift)
 Volume is mounted to persist data from a docker container. Currently, Cloud-IDE only allows mounting data from `/home/project` directory. For example:
 ```
 docker run -itd --name my-first-container -v /home/project/testDir:/app ubuntu:latest
@@ -31,7 +31,7 @@ It spins up `my-first-container` using `ubuntu:latest` image and mounts `/home/p
 
 See the docker [documentation](https://docs.docker.com/engine/reference/commandline/docker/) for more commands.
 
-## Kubernetes (CloudIDE with Kubernetes)
+## Kubernetes (Cloud IDE with Kubernetes)
 Kubernetes is an open source container orchestrator which allows to schedule docker containers on large scale compute nodes. It is now a de-facto standard for cloud-native application development and deployment. Cloud-IDE with Kubernetes is already configured to support Kubernetes. It has a pre-installed command line tool called `kubectl` that handles communication with remote kubernetes cluster. Here are a few examples:
 ```
 kubectl run my-first-pod --restart=Never --image=ubuntu -- sleep 10s
@@ -46,9 +46,9 @@ It prints existing pods in your namespace.
 
 More commands can be found in the Kubernetes [documentation](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
 
-## Embeddable AI (All CloudIDE versions)
+## Embeddable AI (All Cloud IDE versions)
 
-Cloud IDE supports various Embeddable AI services includes Text-To-Speech, Speech-To-Text, and various Watson NLP services (e.g. sentiment, emotion, etc.). Learners have immediate access to all of these services (via HTTP API calls) to learn, test, and embed in their applications. Moreover, Skills Network provides images for all of these services so learners can _deploy_ the services to the provided Code Engine Project, alongisde their applcations (only availble in CloudIDE with Kubernetes and CloudIDE with Openshift).
+Cloud IDE supports various Embeddable AI services includes Text-To-Speech, Speech-To-Text, and various Watson NLP services (e.g. sentiment, emotion, etc.). Learners have immediate access to all of these services (via HTTP API calls) to learn, test, and embed in their applications. Moreover, Skills Network provides images for all of these services so learners can _deploy_ the services to the provided Code Engine Project, alongisde their applcations (only availble in Cloud IDE with Kubernetes and Cloud IDE with Openshift).
 
 ### Using the provided Services 
 
@@ -75,7 +75,7 @@ The following markdown creates a button that opens the file `test.py` located in
 ::openFile{path="/home/project/test.py"}
 ```
 
-### Building and Deploying to Code Engine (CloudIDE with Kubernetes, CloudIDE with Openshift)
+### Building and Deploying to Code Engine (Cloud IDE with Kubernetes, Cloud IDE with Openshift)
 If you would like to deploy any of the above-mentioned Embeddable AI NLP service and have it be available for anyone to use, you can follow these steps in order to deploy it. The deployment will be to IBM Cloud’s Code Engine. IBM Cloud Code Engine is a fully managed, cloud-native service for running containerized workloads on IBM Cloud. It allows developers to deploy and run code in a secure, scalable and serverless environment, without having to worry about the underlying infrastructure.
 
 <details>
@@ -330,9 +330,9 @@ Flutter Web’s hot restart feature, which allows developers to see changes inst
 
 However, there’s a simple workaround with a bash script to mimic the hot reload functionality. Click [here](../flutter-web-hot-restart.md) for more information on how to use this workaround.
 
-## Tips on Writing a Successful CloudIDE Lab
+## Tips on Writing a Successful Cloud IDE Lab
 
-Creating an effective CloudIDE lab requires careful planning to ensure learners have a smooth and engaging experience. Below are key tips to enhance the structure and learning outcomes of your lab.
+Creating an effective Cloud IDE lab requires careful planning to ensure learners have a smooth and engaging experience. Below are key tips to enhance the structure and learning outcomes of your lab.
 
 ### 1. Provide an overview of the final application early  
 If your lab involves building an application, include an overview within the first few pages. This helps learners understand the end goal and visualize what they will achieve by the end of the lab.
@@ -365,6 +365,6 @@ To accommodate different learning styles and time constraints, provide two optio
 
 - **Full version:** Once the application is running, encourage learners to continue through the rest of the lab to explore deeper explanations, code breakdowns, and additional insights.
 
-By structuring your CloudIDE lab in this way, you can cater to both quick learners who want a fast setup and those who prefer an in-depth understanding of the implementation.  
+By structuring your Cloud IDE lab in this way, you can cater to both quick learners who want a fast setup and those who prefer an in-depth understanding of the implementation.  
 
 
