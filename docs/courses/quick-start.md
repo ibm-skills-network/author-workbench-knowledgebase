@@ -46,6 +46,24 @@ The Test Project option is exactly what it sounds like. It is a great way for yo
 
 ## Team Management
 
+While it's possible to create a course as an individual author, it's often useful to have a team of authors working on a course. This is especially true for larger courses that have many modules.
+
+To manage who has access to your course, navigate to the "Team" tab of your course. Here you can add team members, remove team members, and assign them roles.
+
+### Roles
+
+There are five roles that can be assigned to a team member. These roles determine what actions a team member can perform in your course and if they are displayed publicly as a member of your course team.
+
+Note, your course can have at most one Lead Instructor.
+
+| Role            | Visibility | Permissions                  |
+|-----------------|------------| -----------------------------|
+| Lead Instructor | Public     | Can edit all course content  |
+| Instructor      | Public     | Can edit all course content  |
+| Contributor     | Public     | Limited editing permissions  |
+| Staff           | Private    | Limited editing permissions  |
+| Admin           | Private    | Can edit all course content  |
+
 ## The Course Outline
 
 The course outline is the arrangement of the modules, lessons, and resources that make up your course. It is the order in which learners will work through your course.
