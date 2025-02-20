@@ -42,4 +42,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           source-dir: ./build/
-          custom-url: author.skills.network/docs/
+          custom-url: author.skills.network/docs
