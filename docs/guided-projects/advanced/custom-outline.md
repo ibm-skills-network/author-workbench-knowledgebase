@@ -7,8 +7,8 @@ sidebar_position: 1
 This is a setting for advanced users. For the vast majority of users, we do not expect you to need to configure this setting.
 :::
 
-[Author Workbench](https://author.skills.network) provides two ways to display your Guided Project to learners.
-You can either create your own custom outline using Studio or use the simple outline we provide.
+[Author Workbench](https://author.skills.network) tries to handle building the project outline for you. Our simple outline consists of your lab, feedback and completion sections.
+However, if you want to use more than 1 lab, or include additional sections, you can switch your project to the custom outline. This will give you full control over the outline, but you will need to build the outline yourself.
 
 ## To get started
 
