@@ -1,4 +1,8 @@
-# JupyterLite
+---
+sidebar_position: 1
+---
+
+# Overview
 
 JupyterLite is a responsive python notebook environment we provide for your learners' best experience.
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # JupyterLite vs JupyterLab
 
 This page explains the differences between JupyterLite and JupyterLab - and which environment would be right for you.
