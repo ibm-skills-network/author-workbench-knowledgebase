@@ -14,6 +14,8 @@ For example, a good guided project might be building and deploying a movie recom
 
 ## Steps to Create and Publish a Guided Project
 
+DA DOO RUN RUN
+
 ### 1. Plan Out Your GP
 #### Define the Purpose and Audience
 - Identify the topic and scope of the GP.
