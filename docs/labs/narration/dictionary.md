@@ -16,8 +16,8 @@ This is the narration dictionary page which is used to teach our AI narrator how
   "watsonx.data": "watsonx-dot-data",
   "watsonx.governance": "watsonx-dot-governance",
   "cics": "kicks",
-  "Aspera": "uh-SPAIR-uh",
-  "qiskit" "kiss-kit",
+  "aspera": "uh-SPAIR-uh",
+  "qiskit": "kiss-kit",
   "faiss": "fice"
 }
 // END DICTIONARY
