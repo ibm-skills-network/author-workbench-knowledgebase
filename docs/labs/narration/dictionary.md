@@ -14,7 +14,11 @@ This is the narration dictionary page which is used to teach our AI narrator how
 {
   "watsonx.ai": "watsonx-dot-AI",
   "watsonx.data": "watsonx-dot-data",
-  "watsonx.governance": "watsonx-dot-governance"
+  "watsonx.governance": "watsonx-dot-governance",
+  "cics": "kicks",
+  "Aspera": "uh-SPAIR-uh",
+  "qiskit" "kiss-kit",
+  "faiss": "fice"
 }
 // END DICTIONARY
 ```
