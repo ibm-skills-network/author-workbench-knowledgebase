@@ -72,14 +72,3 @@ This is the narration dictionary page which is used to teach our AI narrator how
 }
 // END DICTIONARY
 ```
-
-
-## Narration Details
-
-Currently we are using `Ballad` from `gpt-4o-mini-tts`. You can test on https://openai.fm with following prompt:
-
-```
-Pace: Moderate
-Tone: Moderate
-Volume: Normal
-```
