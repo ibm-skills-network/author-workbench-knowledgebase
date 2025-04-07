@@ -1,11 +1,19 @@
-# Narration Dictionary
+# Narration Pronounciation Dictionary
 
 This is the narration dictionary page which is used to teach our AI narrator how to pronounce difficult acronyms and words (mostly libraries and products). For example if the narration pronounces, "IBM" as "ih-buh-mmm" instead of "eye-bee-em" this is the place to fix it!
+
+## How to add a new word to the pronounciation dictionary
+
+1. Determine how to spell the pronounciation ([Test out the pronounciations here](https://www.openai.fm/#9536cc76-574b-4b57-8c8c-6d471b2a4772))
+2. Update the JSON below (within the `START DICTIONARY` and `END DICTIONARY` comments) with the new update:
+  - Key: The word as seen in the instructions in _lowercase_
+  - Value: The correct pronounciation spelling as determined in _step 1_
+3. Create a new PR of your changes, and include a share link to htttps://openai.fm including both words (original and pronounciation spelling)
 
 ## Important Notes:
 
 - Make sure to keep the keys lowercase
-- [Test out the pronounciations here](https://www.openai.fm/#9341c0db-be30-4151-8a79-1466ff55e16b) 
+- [Test out the pronounciations here](https://www.openai.fm/#9536cc76-574b-4b57-8c8c-6d471b2a4772) 
 
 ## The Dictionary
 
