@@ -12,8 +12,9 @@ This is the narration dictionary page which is used to teach our AI narrator how
 ```json
 // START DICTIONARY
 {
-  "find": "replace",
-  "theacronym": "howtopronunce"
+  "watsonx.ai": "watsonx-dot-AI",
+  "watsonx.data": "watsonx-dot-data",
+  "watsonx.governance": "watsonx-dot-governance"
 }
 // END DICTIONARY
 ```
