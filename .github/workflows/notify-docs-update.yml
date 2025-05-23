@@ -7,13 +7,13 @@ on:
       - 'docs/**'
 
 jobs:
-  notify-vector-db-update:
+  notify-docs-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Vector Database Update
+      - name: Trigger Documentation Update
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.SN_ASSISTANT_TOKEN }}
           repository: ibm-skills-network/sn-assistant
           event-type: knowledge-base-update
-          client-payload: '{"repository_url": "https://github.com/ibm-skills-network/author-workbench-knowledgebase.git", "docs_path": "docs", "collection_alias": "author_workbench_docs", "collection_prefix": "awb_"}' 
+          client-payload: '{"repository_url": "https://author.skills.network/docs", "library_name": "author-workbench", "version": "1"}' 
