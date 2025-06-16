@@ -1,4 +1,4 @@
-# Embedding Mark in edX.org
+# edX.org
 
 This guide shows the edX.org-specific steps for embedding Mark assignments. First, get your LTI Launch URL using the **Embedding Mark - General Instructions**.
 
