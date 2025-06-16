@@ -1,4 +1,4 @@
-# Embedding Mark in Coursera
+# Coursera
 
 This guide shows the Coursera-specific steps for embedding Mark assignments. First, get your LTI Launch URL using the **Embedding Mark - General Instructions**.
 
