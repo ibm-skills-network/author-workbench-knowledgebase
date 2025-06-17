@@ -9,7 +9,7 @@ Welcome to the **Author Knowledgebase**. We are in the process of building this 
 
 ## What is Author Workbench?
 
-The demand for quality engaging content for learning new technology skills has never been higher yet creating content for hands on learning remains a daunting task. We built Author Workbench to be a one-stop-place for **creating and distributing** engaging content for millions of people to learn hands-on. With Author Workbench, you can easily create, publish and manage **Courses, Guided Projects, Articles and Videos**. We will disribute your content through our extensive network of upskilling portals that reaches millions of people.  
+The demand for quality engaging content for learning new technology skills has never been higher yet creating content for hands on learning remains a daunting task. We built Author Workbench to be a one-stop-place for **creating and distributing** engaging content for millions of people to learn hands-on. With Author Workbench, you can easily create, publish and manage **Courses, Guided Projects, Articles**. We will disribute your content through our extensive network of upskilling portals that reaches millions of people.  
  
 ## Why use Author Workbench?
 
@@ -39,14 +39,3 @@ Guided Projects are for those who preffer to learn by doing. It is a short form 
 - Perfect for tutorials (consider guided projects as a more engaging alternative), how-tos, and technical explanations
 - Support for code snippets and technical diagrams
 
-### Videos
-- Create and manage educational video content
-- We automatically generate transcripts with translations
-- Integrate with course materials
-
-<!-- WIP -->
-<!-- ## Next Steps
-
-- [Setting Up Your Author Profile](#)
-- [Creating Your First Guided Project](#)
-- [Creating Your First Course](#) -->
