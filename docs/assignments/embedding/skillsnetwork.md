@@ -19,15 +19,15 @@ This guide shows the Skills Network-specific steps for embedding Mark assignment
 
 4. Press **Edit** and fill in the fields:
 
-   | Field                                        | Value                                     |
-   | -------------------------------------------- | ----------------------------------------- |
-   | **LTI ID**                                   | `sn_lti`                                  |
-   | **LTI URL**                                  | *\[Launch URL from general instructions]* |
-   | **Launch Target**                            | `New Window`                              |
-   | **Request user's username**                  | `true`                                    |
-   | **Request user's email**                     | `true`                                    |
-   | **Send extra parameters**                    | `true`                                    |
-   | **Scored** <span style="color:red">\*</span> | `true`                                    |
+   | Field                       | Value                                     |
+   | --------------------------- | ----------------------------------------- |
+   | **LTI ID**                  | `sn_lti`                                  |
+   | **LTI URL**                 | *\[Launch URL from general instructions]* |
+   | **Launch Target**           | `New Window`                              |
+   | **Request user's username** | `true`                                    |
+   | **Request user's email**    | `true`                                    |
+   | **Send extra parameters**   | `true`                                    |
+   | **Scored** \*               | `true`                                    |
 
    > **Note:** Ensure **Scored** is set to `true` for **graded assignments**, so that grades can be assigned to the learner upon completion.
 
