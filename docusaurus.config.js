@@ -67,6 +67,20 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/labs/network-egress',
+            to: '/labs/features/network-access',
+          },
+        ],
+      },
+    ]
+  ]
 };
 
 module.exports = config;
