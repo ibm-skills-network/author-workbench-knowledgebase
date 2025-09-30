@@ -118,8 +118,9 @@ Follow these best practices when creating JupyterLab labs:
 - Pin python package versions when installing using `conda` or `mamba`. For instance, instead of using `!mamba install -c conda-forge -y matplotlib`, use `!mamba install -c conda-forge -y matplotlib==3.10.0`
 - Ask learners to restart their kernel between installing Python libraries and importing them. There are several ways that this can be accomplished. You can include a code cell that, when run, restarts the kernel:
 ```python
-import os
-os._exit(00)
+# Restart the kernel
+from IPython import get_ipython
+get_ipython().kernel.do_shutdown(restart=True)
 ```
 And, as a workaround in case the above code fails to restart the kernel for a learner, you can include the following image in a markdown cell that asks the learner to click the kernel restart button:
 ![An image that shows the location of the jupyterlab restart kernel button](/img/labs/restart-jupyterlab-kernel.png)
