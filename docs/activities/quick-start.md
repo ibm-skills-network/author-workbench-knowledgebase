@@ -9,43 +9,51 @@ This guide will walk you through the process of creating your first activity in 
 ## What is an Activity?
 
 Activities are focused learning units where learners consume a single asset. Unlike Guided Projects which contain multiple resources, an activity contains just one:
+
 - **A video** - An instructional or educational video
 - **An assignment** - A single assessment or task
 - **A lab** - A single hands-on interactive environment
-- **A podcast** - An interactive audio 
+- **An Interactive Audio** - A single audio-based learning experience where you listen and can ask questions
 
-Activities are perfect for bite-sized learning experiences that can be completed quickly and focused on a specific skill or concept.
+Activities are perfect for bite-sized learning experiences that can be completed quickly and focus on a specific skill or concept.
 
 ## Steps to Create and Publish an Activity
 
 ### 1. Plan Out Your Activity
+
 #### Define the Purpose and Audience
+
 - Identify the specific topic or skill the activity will address.
 - Determine the target audience (e.g., beginners, intermediate, or advanced learners).
 - Understand the learners' prior knowledge and expectations.
 
 #### Set a Clear Learning Objective
+
 - Define what learners should be able to accomplish after completing the activity.
 - Use a measurable goal (e.g., *"By the end of this activity, learners will be able to..."*).
 - Keep it focused - activities should target a single, specific learning outcome.
 
 #### Choose Your Asset Type
-Decide which single asset type best fits your learning objective:
+
 - **Video**: For demonstrating concepts, showing procedures, or providing explanations
 - **Assignment**: For assessing understanding or practicing specific skills
 - **Lab**: For hands-on practice in an interactive environment
+- **Interactive Audio**: For audio-based learning with prompts and questions you respond to
 
 #### Gather Resources
+
 - Collect reliable and up-to-date information on the topic.
 - Identify relevant examples or real-world applications.
 - Gather necessary tools, software, or datasets if using a lab.
 
 
 ### 2. Open Author Workbench
+
 - Go to the Author Workbench.
-- On the left side, choose **Activities**.
+- Choose **[Activities](https://author.skills.network/activities)**.
 
 ### 3. Create an Activity
+
 - On the top right corner, click **Create Activity**.
 
 ### 4. Add Metadata
@@ -73,15 +81,17 @@ Once finished, click **Create Activity**. The page will refresh, and you will be
 ### 5. Add Your Asset
 
 Now add the single asset that makes up your activity:
+
 - Navigate to the **Content** tab of your activity
 - Click the **Add Asset** button
-- Select from the dropdown: **Video**, **Assignment**, **Lab**, or **Podcast**
+- Select from the dropdown: **Video**, **Assignment**, **Lab**, or **Interactive Audio**
 - For each asset type, you'll have options to:
   - Create a new one
   - Add from the asset list
   - Add from courses/guided projects
 
 #### Option A: Add a Video
+
 - Select **Video** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, upload your video file or provide a link to a hosted video
@@ -91,6 +101,7 @@ Now add the single asset that makes up your activity:
 > **Tip**: Keep videos concise (typically 5-15 minutes). Use clear audio and visuals. Consider adding timestamps or chapters for longer videos.
 
 #### Option B: Add an Assignment
+
 - Select **Assignment** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, create your assignment questions or tasks
@@ -100,6 +111,7 @@ Now add the single asset that makes up your activity:
 > **Tip**: Make assignments specific and actionable. Provide examples if helpful. Align the assignment directly with your learning objective.
 
 #### Option C: Add a Lab
+
 - Select **Lab** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, choose the appropriate lab environment (e.g., Cloud IDE)
@@ -108,16 +120,16 @@ Now add the single asset that makes up your activity:
 
 > **Tip**: When designing your lab, ensure it aligns with the learning objective. Provide clear instructions and consider the learner's experience. For more detailed guidance, visit [**Labs - Quick Start**](/labs/quick-start).
 
-#### Option D: Add a Podcast
-- Select **Podcast** from the asset dropdown
+#### Option D: Add an Interactive Audio
+
+- Select **Interactive Audio** from the asset dropdown
 - Choose to create new or add from existing sources
-- If creating new, upload your audio file or provide a link to a hosted podcast
+- If creating new, upload your audio file or provide a link to a hosted interactive audio
 - Ensure the audio is clear and engaging
 - Consider adding transcripts for accessibility
 
-> **Tip**: Keep podcasts focused and engaging. Use clear audio quality. Consider breaking longer content into shorter episodes.
-
 ### 6. Submit Your Activity for Review
+
 - Once you feel your activity is complete and ready for learners, you can submit it for review.
 - Click **Submit for Review**. You will have a chance to review the details and confirm you'd like to submit for review.
 - A member of our editorial team will be assigned to review your activity. If any changes are required, you'll get detailed feedback and have the opportunity to resubmit. If everything looks good, it will be approved and available on the Skills Network Catalog. Keep an eye on your email!
