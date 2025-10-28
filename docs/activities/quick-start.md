@@ -28,6 +28,7 @@ Activities are perfect for bite-sized learning experiences that can be completed
 - Understand the learners' prior knowledge and expectations.
 
 #### Set a Clear Learning Objective
+
 - Define what learners should be able to accomplish after completing the activity.
 - Use a measurable goal (e.g., *"By the end of this activity, learners will be able to..."*).
 - Keep it focused - activities should target a single, specific learning outcome.
@@ -90,6 +91,7 @@ Now add the single asset that makes up your activity:
   - Add from courses/guided projects
 
 #### Option A: Add a Video
+
 - Select **Video** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, upload your video file or provide a link to a hosted video
@@ -99,6 +101,7 @@ Now add the single asset that makes up your activity:
 > **Tip**: Keep videos concise (typically 5-15 minutes). Use clear audio and visuals. Consider adding timestamps or chapters for longer videos.
 
 #### Option B: Add an Assignment
+
 - Select **Assignment** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, create your assignment questions or tasks
@@ -108,6 +111,7 @@ Now add the single asset that makes up your activity:
 > **Tip**: Make assignments specific and actionable. Provide examples if helpful. Align the assignment directly with your learning objective.
 
 #### Option C: Add a Lab
+
 - Select **Lab** from the asset dropdown
 - Choose to create new or add from existing sources
 - If creating new, choose the appropriate lab environment (e.g., Cloud IDE)
