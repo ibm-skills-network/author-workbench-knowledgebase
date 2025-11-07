@@ -63,6 +63,26 @@ When installing packages from [PyPI](https://pypi.org/), a substantial amount of
 
 After installing packages in JupyterLab, we recommend restarting your kernel and informing your learners to do the same. Please see [JupyterLab Best Practices](#jupyterlab-best-practices) for details.
 
+### Installing PyTorch in CPU-only Labs
+
+For CPU-only environments, it is important to explicitly install the **CPU wheels** of PyTorch.  
+If you use a plain `pip install torch`, it may default to the **CUDA-enabled build**, which is much larger and can slow down installation or fail in labs without GPU support.
+
+<details>
+<summary><b> Show CPU-only PyTorch install commands</b></summary>
+
+```bash
+# JupyterLab Current (Python 3.12.8 kernel, supports PyTorch 2.x):
+%pip install torch==2.8.0+cpu torchvision==0.23.0+cpu torchaudio==2.8.0+cpu \
+    --index-url https://download.pytorch.org/whl/cpu
+
+# JupyterLab Classic (Python 3.7.12 kernel, PyTorch 2.x not supported):
+%pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1+cpu \
+    --index-url https://download.pytorch.org/whl/cpu
+```
+
+</details>
+
 #### Install using `conda` or `mamba`
 
 Packages can be installed using `!conda`, `%conda`, `!mamba`, or `%mamba`. Since `mamba` is significantly faster than `conda`, it is ***strongly recommended*** to use `!mamba` or `%mamba`. Remember to use the `-y` option to automatically confirm all prompts. For example, to install matplotlib from the conda-forge channel, you can use the following command:
