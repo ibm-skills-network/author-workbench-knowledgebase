@@ -8,7 +8,7 @@ This guide will walk you through the process of creating your first activity in 
 
 ## What is an Activity?
 
-Activities are focused learning units where learners consume a single asset. Unlike Guided Projects which contain multiple resources, an activity contains just one:
+Activities are focused learning units where learners consume a single asset. Unlike Guided Projects which contain multiple resources, an activity contains exactly one asset. This can be:
 
 - **A video** - An instructional or educational video
 - **An assignment** - A single assessment or task
@@ -94,8 +94,7 @@ Now add the single asset that makes up your activity:
 
 - Select **Video** from the asset dropdown
 - Choose to create new or add from existing sources
-- If creating new, upload your video file or provide a link to a hosted video
-- Add captions/subtitles if available
+- If creating new, upload your video file
 - Ensure the video is clear, well-paced, and focused on the learning objective
 
 > **Tip**: Keep videos concise (typically 5-15 minutes). Use clear audio and visuals. Consider adding timestamps or chapters for longer videos.
@@ -124,9 +123,7 @@ Now add the single asset that makes up your activity:
 
 - Select **Interactive Audio** from the asset dropdown
 - Choose to create new or add from existing sources
-- If creating new, upload your audio file or provide a link to a hosted interactive audio
-- Ensure the audio is clear and engaging
-- Consider adding transcripts for accessibility
+- If creating new, select which assets you want to add for adding context to the interactive audio
 
 ### 6. Submit Your Activity for Review
 
