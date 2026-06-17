@@ -11,7 +11,11 @@ const config = {
   url: 'https://author.skills.network',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'ibm-skills-network', // Usually your GitHub org/user name.
   projectName: 'author-workbench-knowledgebase', // Usually your repo name.
