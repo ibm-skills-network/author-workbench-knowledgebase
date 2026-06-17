@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkauthor_workbench_knowledgebase=globalThis.webpackChunkauthor_workbench_knowledgebase||[]).push([[742],{7093:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
