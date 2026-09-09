@@ -13,7 +13,7 @@ Presentation Studio turns a short brief, plus optionally the source documents yo
 Nothing is generated, saved, or shared without your approval at two separate checkpoints: once before the deck is written, and again before it's released to you as a file.
 
 :::note
-This guide covers only what's live in the product today. A few controls you'll see on screen are tagged "Coming soon"; this guide leaves those out entirely, since they don't do anything yet.
+This guide covers only what's live in the product today. A few controls you'll see on screen are tagged "Coming soon"; this guide leaves those out entirely, since they don't do anything yet. See [What's Next](/presentation-studio/whats-next) for what they'll do.
 :::
 
 ## Signing in
