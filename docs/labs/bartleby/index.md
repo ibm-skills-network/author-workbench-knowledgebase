@@ -15,17 +15,10 @@ lab, attached to your course, with the screenshots already in the lab's file lib
 
 ## Install
 
-<<<<<<< HEAD
 1. **[Download Bartleby for Chrome](pathname:///docs/downloads/bartleby-chrome.zip)** and unzip
    it somewhere you will keep it.
 2. In Chrome, open `chrome://extensions`, switch on **Developer mode** (top right), click
    **Load unpacked**, and choose the unzipped folder.
-=======
-1. Download the latest release: **[Bartleby releases](https://github.com/ibm-skills-network/sn-scribe/releases/latest)**
-   (sign in to GitHub with your IBM Skills Network account). Unzip it.
-2. In Chrome, open `chrome://extensions`, switch on **Developer mode** (top right), click
-   **Load unpacked**, and choose the `src` folder from the zip.
->>>>>>> aaff9b17f6522eb371a2aa1edcaf76a3c6b9f4ee
 3. Click the puzzle-piece icon in the toolbar and pin **Bartleby** so it is one click away.
 
 :::info Chrome Web Store
