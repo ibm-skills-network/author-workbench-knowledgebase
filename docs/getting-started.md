@@ -6,7 +6,7 @@ slug: /
 
 # Getting Started as a Content Creator
 
-Welcome to the **Author Knowledgebase**. We are in the process of building this knowledgebase to help you build **amazing content** with Author Workbench.We could use your help. Anyone can contribute to this knowledgebase. By contributing your knowledge and insights to this knowledge base you wold be helping hundreds of other contebnt creators to educate millions of people in the latest technologies.
+Welcome to the **Author Knowledgebase**. We are in the process of building this knowledgebase to help you build **amazing content** with Author Workbench.We could use your help. Anyone can contribute to this knowledgebase. By contributing your knowledge and insights to this knowledge base you wold be helping hundreds of other content creators to educate millions of people in the latest technologies.
 
 ## What is Author Workbench?
 
@@ -27,10 +27,10 @@ Courses require a signigficant commitment of time and attention and provide a co
 - Final exam
 - With Mark, our AI-powered assignment marker, you will create assignments and tests that provide learner with thoughtful feedback on their answers
 - Issue a valuable course **completion certificate** to those who meet the requirements
-- You create your cintent in English or your preffered language and we will automatically translate it into 22 languages  
+- You create your content in English or your preferred language and we will automatically translate it into 22 languages  
 
 ### Guided Projects
-Guided Projects are for those who preffer to learn by doing. It is a short form content that can typically be completed in under an hour. 
+Guided Projects are for those who prefer to learn by doing. It is a short form content that can typically be completed in under an hour. 
 - Build a solution to a real world problem
 - Provide step-by-step guidance for your learners
 - Ideal for learning specific skills or technologies
