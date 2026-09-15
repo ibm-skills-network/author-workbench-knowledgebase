@@ -8,12 +8,21 @@ sidebar_position: 2
 
 **From the release zip** (works today):
 
+<<<<<<< HEAD
 1. **[Download Bartleby for Chrome](pathname:///docs/downloads/bartleby-chrome.zip)** and unzip it
    somewhere you will keep it. Chrome loads the extension from that folder every time it
    starts, so do not put it in Downloads and delete it later.
 2. Open `chrome://extensions`.
 3. Switch on **Developer mode** in the top-right corner.
 4. Click **Load unpacked** and choose the unzipped folder (the one containing `manifest.json`).
+=======
+1. Download the latest zip from [Bartleby releases](https://github.com/ibm-skills-network/sn-scribe/releases/latest)
+   and unzip it somewhere you will keep it. Chrome loads the extension from that folder every
+   time it starts, so do not put it in Downloads and delete it later.
+2. Open `chrome://extensions`.
+3. Switch on **Developer mode** in the top-right corner.
+4. Click **Load unpacked** and choose the `src` folder inside the unzipped release.
+>>>>>>> aaff9b17f6522eb371a2aa1edcaf76a3c6b9f4ee
 5. Click the puzzle-piece icon in the toolbar, find **Bartleby**, and click the pin.
 
 Chrome shows a "Disable developer mode extensions" banner on startup for unpacked extensions.
@@ -28,7 +37,11 @@ removes both the banner and the manual steps.
 Firefox builds are produced alongside Chrome builds but are not yet on addons.mozilla.org, so
 they install as a temporary add-on that lasts until Firefox restarts:
 
+<<<<<<< HEAD
 1. **[Download Bartleby for Firefox](pathname:///docs/downloads/bartleby-firefox.zip)** and unzip it.
+=======
+1. Download the `bartleby-firefox-<version>.zip` from the release.
+>>>>>>> aaff9b17f6522eb371a2aa1edcaf76a3c6b9f4ee
 2. Open `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on…** and pick the `manifest.json` inside the unzipped folder.
 
@@ -36,7 +49,11 @@ In Firefox the live panel is a sidebar rather than a side panel. Everything else
 
 ## Updating
 
+<<<<<<< HEAD
 - **Zip**: download the new zip from the link above, unzip it over the old folder, then on
+=======
+- **Release zip**: download the new zip, unzip it over the old folder, then on
+>>>>>>> aaff9b17f6522eb371a2aa1edcaf76a3c6b9f4ee
   `chrome://extensions` click the reload arrow on the Bartleby card. Your captures are kept;
   they live in the browser's extension storage, not in the folder.
 - **Store**: nothing to do.

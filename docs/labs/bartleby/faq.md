@@ -59,6 +59,11 @@ After Melville's scrivener. He copied things down for a living.
 
 ## I found a bug
 
+<<<<<<< HEAD
 Tell the Skills Network team through the usual channel, with what you did, what you expected
 and a screenshot of the card or editor if there is one. If you have access to the
 `ibm-skills-network` GitHub organization, open an issue on the `sn-scribe` repository.
+=======
+Open an issue on [ibm-skills-network/sn-scribe](https://github.com/ibm-skills-network/sn-scribe/issues)
+with what you did, what you expected and a screenshot of the card or editor if there is one.
+>>>>>>> aaff9b17f6522eb371a2aa1edcaf76a3c6b9f4ee
